@@ -1,7 +1,7 @@
 export async function analyzeUserBehaviour(data) {
   try {
     const response = await fetch(
-      'http://192.168.18.29:5000/analyze', //must be local ip
+      'https://ai-engine-cogniwell-1.onrender.com/analyze', //must be local ip
       {
         method: 'POST',
         headers: {
